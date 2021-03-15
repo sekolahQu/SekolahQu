@@ -24,7 +24,7 @@ Pola ini membagi logika program terkait menjadi tiga elemen yang saling berhubun
 - View merepresentasikan seluruh hal yang berhubungan dengan tampilan.
 - Controller menerima input dan mengubahnya menjadi perintah untuk model atau tampilan.
 
-### Kerangka Data (Model)
+## Kerangka Data (Model)
 
 Seluruh kerangka data diatur oleh <i>Laravel</i> menggunakan satu fitur laravel yang bernama <i>Database Migration</i>
 yang berarti migrasi database. Migrasi seperti kontrol versi untuk database, memungkinkan untuk menentukan dan 
@@ -33,7 +33,7 @@ berkontribusi untuk mengembangkan data dari project ini. Untuk mengetahui cara k
 docs migration laravel dibawah ini :
 - [Tentang Database Migration Laravel](https://laravel.com/docs/8.x/migrations).
 
-### Library (atau framework?) apa saja yang akan digunakan untuk project ini?
+## Library (atau framework?) apa saja yang akan digunakan untuk project ini?
 
 - [VueJs](https://vuejs.org/) akan digunakan untuk mempermudah proses pengolahan tampilan. 
 - [InertiaJS](https://inertiajs.com/)  digunakan untuk membantu pengembangan interaksi antara tampilan dan logic.
@@ -43,7 +43,12 @@ docs migration laravel dibawah ini :
 
 Jika ada yang lebih baik dari seluruhan framework itu, tolong beritahu kami!
 
-##Lisensi
+## Suasana Pengembangan (Environment)
+Untuk tahapan pengembangan, project ini menggunakan [Heroku](https://www.heroku.com/) untuk melakukan tes untuk selanjutnya bisa diterapkan ke hosting utama. Jika anda melakukan pull request, maka otomatis heroku akan membuat suatu lingkungan online yang bisa di buka untuk semua orang. Untuk informasi selanjutnya silahkan baca [tentang Review Apps Heroku](https://devcenter.heroku.com/articles/github-integration-review-apps).
+
+Pastikan anda selalu menulis code agar memperhatikan huruf besar dan kecil. Suasana untuk hosting utama peka terhadap huruf besar dan kecil.
+
+## Lisensi
 Seluruh project ini menggunakan lisensi <i>GNU General Public License v3.0</i>. Untuk selengkapnya anda bisa membaca 
 tentang lisensi ini [di sini](https://github.com/sekolahQu/sekolahQu/blob/main/LICENSE)
 
