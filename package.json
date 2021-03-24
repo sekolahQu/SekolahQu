@@ -7,7 +7,9 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "heroku-prebuild": "npm install -f",
+        "heroku-postbuild": "npm run production"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.2.1",
